@@ -55,33 +55,33 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample">
+                <button class="carousel-control-prev" type="button">
                     <a href="./pastEvent.html"><span class="carousel-control-prev-icon" aria-hidden="true"></span></a>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample">
+                <button class="carousel-control-next" type="button">
                     <a href="./stats.html"><span class="carousel-control-next-icon" aria-hidden="true"></span></a>
                 </button>
             </div>
         </section>
         <!--------------------------------------------------------------- titulos principales ------------------------------------------------->
         <!------------------------------------------------------------------ Form ------------------------------------------------------------>
-        <section id="form-section" class="d-flex flex-column align-items-center mt-4">
+        <form id="form-section" class="d-flex flex-column align-items-center mt-4" action="./show-data.html" method="get">
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name" name="name">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="email">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="Mensajes"></textarea>
             </div>
             <div class="mb-3 d-flex justify-content-end">
                 <input type="submit" value="Enviar" class="btn btn-dark" id="submit">
             </div>
-        </section>
+        </form>
         <!------------------------------------------------------------------ Form ------------------------------------------------------------>
     </main>
     <!--------------------------------------------------------------- Footer -------------------------------------------------------------->
